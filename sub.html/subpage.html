@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>굿즈 전시관</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/sub.css">
+  <script>
+    $(function () {
+      $(".oribox2").hide();
+      $(".oribox3").hide();
+      $(".oribox4").hide();
+      $(".oribox5").hide();
+      $(".collabobox2").hide();
+      $(".collabobox3").hide();
+      $(".collabobox4").hide();
+
+      $('.original ul li:nth-of-type(1)').hover(function () {
+        $(".oribox1").fadeIn();
+        $(".oribox2").hide();
+        $(".oribox3").hide();
+        $(".oribox4").hide();
+        $(".oribox5").hide();
+      });
+
+      $('.original ul li:nth-of-type(2)').hover(function () {
+        $(".oribox2").fadeIn();
+        $(".oribox1").hide();
+        $(".oribox3").hide();
+        $(".oribox4").hide();
+        $(".oribox5").hide();
+      });
+
+      $('.original ul li:nth-of-type(3)').hover(function () {
+        $(".oribox3").fadeIn();
+        $(".oribox1").hide();
+        $(".oribox2").hide();
+        $(".oribox4").hide();
+        $(".oribox5").hide();
+      });
+
+      $('.original ul li:nth-of-type(4)').hover(function () {
+        $(".oribox4").fadeIn();
+        $(".oribox1").hide();
+        $(".oribox2").hide();
+        $(".oribox3").hide();
+        $(".oribox5").hide();
+      });
+
+      $('.original ul li:nth-of-type(5)').hover(function () {
+        $(".oribox5").fadeIn();
+        $(".oribox1").hide();
+        $(".oribox2").hide();
+        $(".oribox3").hide();
+        $(".oribox4").hide();
+      });
+
+      $('.collabo ul li:nth-of-type(1)').hover(function () {
+        $(".collabobox1").fadeIn();
+        $(".collabobox2").hide();
+        $(".collabobox3").hide();
+        $(".collabobox4").hide();
+      });
+
+      $('.collabo ul li:nth-of-type(2)').hover(function () {
+        $(".collabobox2").fadeIn();
+        $(".collabobox1").hide();
+        $(".collabobox3").hide();
+        $(".collabobox4").hide();
+      });
+
+      $('.collabo ul li:nth-of-type(3)').hover(function () {
+        $(".collabobox3").fadeIn();
+        $(".collabobox1").hide();
+        $(".collabobox2").hide();
+        $(".collabobox4").hide();
+      });
+
+      $('.collabo ul li:nth-of-type(4)').hover(function () {
+        $(".collabobox4").fadeIn();
+        $(".collabobox1").hide();
+        $(".collabobox2").hide();
+        $(".collabobox3").hide();
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <div id="content">
+      <div class="logo">
+        <a href="#"><img src="img/gompyohouse_logo.png" alt=""></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">곰표 70주년</a></li>
+          <li><a href="#">콜라보 뮤지엄</a></li>
+          <li><a href="#">굿즈 전시관</a></li>
+          <li><a href="#">곰표가 사랑한 노포</a></li>
+        </ul>
+      </nav>
+      <div class="search">
+        <input type="text" class="tbox">
+        <a href="#"><img src="img/search_icon.png" class="s_icon" alt=""></a>
+      </div>
+    </div>
+  </header>
+
+  <div id="container">
+
+    <div class="slider"><img src="img/slider9.png" alt=""></div>
+
+    <div class="original">
+      <h2>곰표 오리지널</h2>
+      <ul>
+        <li>푸드</li>
+        <li>의류</li>
+        <li>가방</li>
+        <li>주방용품</li>
+        <li>기타</li>
+      </ul>
+
+      <div class="oribox1">
+
+        <div class="product">
+          <img src="img/orifood1.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표치킨너겟</h3>
+            <p>안녕하세요. 여러분~ 저희는 신인너겟<br> '귀엽곰' 이에요.</p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="img/orifood2.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표 밀눈 아이스크림콘</h3>
+            <p>담백하고 깔끔한 곰표 밀눈 아이스크림은
+              전국 모든 편의점에서 만나볼 수<br> 있습니다!</p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="img/orifood3.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표 오리지널 나쵸</h3>
+            <p>바삭바삭 담백해서 자꾸만 손이 가는 곰표 오리지널 나쵸!</p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="img/orifood4.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표 오리지널 팝콘</h3>
+            <p>손이가요 손이가 곰표팝콘에 손이가 !</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="oribox2">
+
+        <div class="product">
+          <img src="img/oriclothes1.png" alt="">
+
+          <div class="back">
+            <img src="img/oriclothes1-front.png" alt="">
+            <p>밀가룩 티셔츠_블랙</p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="img/oriclothes2.png" alt="">
+
+          <div class="back">
+            <img src="img/oriclothes2-front.png" alt="">
+            <p>밀가룩 티셔츠_화이트</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="oribox3">
+
+        <div class="product">
+          <img src="img/oribag.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표 레트로 에코백</h3>
+            <p>곰표의 귀여운 일러스트 이미지가<br> 돋보이는 '곰표 레트로 에코백'이에요.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="oribox4">
+
+        <div class="product">
+          <img src="img/oritool1.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표레트로에스프레소잔</h3>
+            <p>귀여운 크기를 가지고 있지만, 풍기는<br> 분위기는 우아함 그 자체!</p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="img/oritool2.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표레트로머그잔(M)</h3>
+            <p>곰표의 마크가 크게 그려져있는 레트로<br> 느낌의 이쁜 머그잔입니다.</p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="img/oritool3.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표레트로머그잔(L)</h3>
+            <p>우와 이 멋진 머그잔은 뭘까요??</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="oribox5">
+
+        <div class="product">
+          <img src="img/orietc1.png" alt="">
+
+          <div class="textbox">
+            <h3>2019 대한빵지도 프로젝트</h3>
+            <p>2019년 대한빵지도는 고객님의 많은<br> 사랑으로 품절되었습니다 :)
+              더욱 좋은<br> 컨텐츠로 찾아뵙겠습니다.</p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="img/orietc2.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표 노트펜세트</h3>
+            <p> ※ 곰표 노트펜세트는 세븐일레븐<br> 매장에서 구입 가능합니다.</p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="img/orietc3.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표베이커리하우스 스티커 ver2</h3>
+            <p>취향대로 골라쓰는 곰표 스티커팩, 어서 Get Get</p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="img/orietc4.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표베이커리하우스 스티커 ver1</h3>
+            <p>낱개스티커부터 떼서 쓸 수 있는<br> 반칼 스티커</p>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/orietc5.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표 레트로 스티커팩</h3>
+            <p>곰표 레트로 캠페인 시리즈로 제작하는 '곰표 레트로 스티커팩 1탄'이랍니다.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="collabo">
+      <h2>곰표 콜라보레이션</h2>
+      <ul>
+        <li>푸드</li>
+        <li>화장품</li>
+        <li>생활용품</li>
+        <li>의류</li>
+      </ul>
+
+      <div class="collabobox1">
+
+        <div class="product">
+          <img src="img/collabofood1.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표X할리스 디저트 2종</h3>
+            <p>곰표X할리스 콜라보 메뉴는 지금 바로 할리스 매장에서 만나볼 수 있습니다!</p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="img/collabofood2.png" alt="">
+
+          <div class="textbox">
+            <h3>표문막걸리</h3>
+            <p>막걸리는 올드하고 뻔하다?<br>
+              한강주조와 대한제분 곰표가 만나<br> 뒤집습니다.</p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="img/collabofood3.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표 떡볶이 2종</h3>
+            <p>밀가루에 진심인 곰표와 MZ세대<br> 입맛잘알 쿠캣마켓이 만나
+              특별한<br> '곰표 떡볶이'가 탄생했어요!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="collabobox2">
+
+        <div class="product">
+          <img src="img/collabocosmetic1.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표 밀가루 핸드크림</h3>
+            <p>거친 손을 부드럽고 쫀쫀하게!<br> 촉촉산뜻 데일리 핸드크림</p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="img/collabocosmetic2.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표 밀가루 클렌징 팩 폼</h3>
+            <p>2 in 1 신개념 팩 투 폼!<br> 바르면 팩, 문지르면 폼!</p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="img/collabocosmetic3.gif" alt="">
+
+          <div class="textbox">
+            <h3>곰표 밀가루쿠션 미니어처</h3>
+            <p>2019년 겟잇뷰티 1위템<br>2년 연속 인정 받은 쿠션</p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="img/collabocosmetic4.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표 밀가루 쿠션(기획상품) 본품1+리필1</h3>
+            <p>천연 코스메틱 브랜드 스와니코코와의<br> 콜라보를 통해 탄생한<br> "곰표 밀가루쿠션"이에요. ʕ·ᴥ·ʔ</p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="img/collabocosmetic5.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표밀가루쿠션</h3>
+            <p>건강한 먹거리를 추구하는 곰표와
+              건강한 아름다움을 추구하는 스와니코코가 만나 탄생한 뷰티제품</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="collabobox3">
+
+        <div class="product">
+          <img src="img/collabodaily1.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표 주방세제</h3>
+            <p>※ 곰표X자연퐁 주방세제는 11번가,<br> 티몬, 카카오스토리 등 온라인몰에서 판매되고 있습니다. </p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="img/collabodaily2.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표 뉴샤이닝 화이트치약</h3>
+            <p>※ 세븐일레븐 상시 1+1 3900원으로<br> 판매되고 있으며 여러 오픈마켓에서도<br> 판매중입니다. </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="collabobox4">
+
+        <div class="product">
+          <img src="img/collabclothes1.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표 밀가루 패딩</h3>
+            <p>곰표와 4XR이 만나 인싸템이 탄생했다! 상상도 못한 정체로 탄생한 곰표패딩</p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="img/collabclothes2.png" alt="">
+
+          <div class="textbox">
+            <h3>곰표X런레빗 CAMP LIFFE</h3>
+            <p>2021 GOMPYO X RUNRABBIT<br>
+              CAMP LIFE</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <footer>
+    <div class="foot_box">
+      <div class="text_1">
+        <a href="#">개인정보처리방침</a><a href="#">이용약관</a><a href="#">이용안내</a>
+      </div>
+      <div class="text_2">
+        <span class="center_box">고객센터</span><span class="phone">080-330-3377</span>
+      </div>
+      <div class="text_3">
+        <p>운영시간 : 평일 10:00 ~ 17:30 (토/일/공휴일 휴무) 점심시간 11:30 ~ 13:00<br>
+          마케팅제휴문의 : mkt@dhflour.co.kr</p>
+        <h3>대한제분(주)</h3>
+        <p>상호 : 대한제분(주) 쇼핑몰명 : 곰표하우스사업자등록번호 : 104-81-04345 대표이사 : 송인석<br>
+          사업자소재지 : 서울특별시 중구 세종대로 39, 대한서울상공회의소 14층(남대문로4가) (우)04513 <br>
+          통신판매업신고 : 2021-서울중구-0940호 개인정보관리담당자 : 배연진</p>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
