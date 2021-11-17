@@ -113,6 +113,19 @@
     opacity: 0;
   }
 
+  .oribox2 .product:hover .back {
+    opacity: 1;
+  }
+
+  .oribox2 .product:hover .back p {
+    bottom: 40px;
+    opacity: 1;
+  }
+
+  .collabobox2 .product:nth-of-type(4) .textbox h3,p {
+    font-size: 0.8em;
+  }
+
   :is(.oribox1,
   .oribox2,
   .oribox3,
